@@ -1,0 +1,404 @@
+2016-07-04 07:34:42.702 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-07-04 07:34:42.703 [info] <0.7.0> Application logger started on node nonode@nohost
+2016-07-04 07:34:42.703 [info] <0.7.0> Application lager_logger started on node nonode@nohost
+2016-07-04 07:34:42.780 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-07-04 07:34:42.849 [info] <0.7.0> Application os_mon started on node nonode@nohost
+2016-07-04 07:34:42.865 [info] <0.7.0> Application p1_utils started on node nonode@nohost
+2016-07-04 07:34:42.934 [info] <0.7.0> Application gproc started on node nonode@nohost
+2016-07-04 07:34:42.949 [info] <0.7.0> Application ibrowse started on node nonode@nohost
+2016-07-04 07:34:42.955 [info] <0.7.0> Application jsx started on node nonode@nohost
+2016-07-04 07:34:42.961 [info] <0.7.0> Application ucol started on node nonode@nohost
+2016-07-04 07:34:42.965 [info] <0.7.0> Application oauth started on node nonode@nohost
+2016-07-04 07:34:42.983 [info] <0.7.0> Application fast_yaml started on node nonode@nohost
+2016-07-04 07:34:43.008 [info] <0.7.0> Application ranch started on node nonode@nohost
+2016-07-04 07:34:43.015 [info] <0.7.0> Application cowlib started on node nonode@nohost
+2016-07-04 07:34:43.026 [info] <0.7.0> Application cowboy started on node nonode@nohost
+2016-07-04 07:34:43.038 [info] <0.7.0> Application xmerl started on node nonode@nohost
+2016-07-04 07:34:43.038 [info] <0.7.0> Application mochiweb started on node nonode@nohost
+2016-07-04 07:34:43.042 [info] <0.7.0> Application mochicow started on node nonode@nohost
+2016-07-04 07:34:43.066 [info] <0.7.0> Application hooks started on node nonode@nohost
+2016-07-04 07:34:43.103 [info] <0.7.0> Application econfig started on node nonode@nohost
+2016-07-04 07:34:43.115 [info] <0.7.0> Application idna started on node nonode@nohost
+2016-07-04 07:34:43.121 [info] <0.7.0> Application mimerl started on node nonode@nohost
+2016-07-04 07:34:43.125 [info] <0.7.0> Application certifi started on node nonode@nohost
+2016-07-04 07:34:43.130 [info] <0.7.0> Application ssl_verify_fun started on node nonode@nohost
+2016-07-04 07:34:43.136 [info] <0.7.0> Application metrics started on node nonode@nohost
+2016-07-04 07:34:43.193 [info] <0.7.0> Application hackney started on node nonode@nohost
+2016-07-04 07:34:43.250 [info] <0.2256.0> Setup running ...
+2016-07-04 07:34:43.255 [info] <0.2256.0> Directories verified. Res = ok
+2016-07-04 07:34:43.255 [info] <0.2256.0> Setup finished processing hooks (Mode=normal)...
+2016-07-04 07:34:43.255 [info] <0.7.0> Application setup started on node nonode@nohost
+2016-07-04 07:34:43.295 [info] <0.2263.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2016-07-04 07:34:43.295 [info] <0.7.0> Application exometer_core started on node nonode@nohost
+2016-07-04 07:34:43.297 [info] <0.7.0> Application snappy started on node nonode@nohost
+2016-07-04 07:34:43.589 [info] <0.7.0> Application barrel started on node nonode@nohost
+2016-07-04 07:34:43.589 [info] <0.7.0> Application barrel_ex started on node nonode@nohost
+2016-07-04 07:34:43.590 [info] <0.7.0> Application demo started on node nonode@nohost
+2016-07-04 07:38:47.198 [error] <0.2341.0> Ranch listener barrel terminated with reason: call to undefined function hooks:find("on_http_request")
+2016-07-04 07:38:47.245 [error] emulator Error in process <0.2341.0> with exit value:
+{undef,[{hooks,find,["on_http_request"],[]},{barrel_api_http,execute,2,[{file,"src/api/barrel_api_http.erl"},{line,105}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2016-07-04 07:44:06.710 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-07-04 07:44:06.710 [info] <0.7.0> Application logger started on node nonode@nohost
+2016-07-04 07:44:06.715 [info] <0.7.0> Application lager_logger started on node nonode@nohost
+2016-07-04 07:44:06.792 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-07-04 07:44:06.873 [info] <0.7.0> Application os_mon started on node nonode@nohost
+2016-07-04 07:44:06.881 [info] <0.7.0> Application p1_utils started on node nonode@nohost
+2016-07-04 07:44:06.961 [info] <0.7.0> Application gproc started on node nonode@nohost
+2016-07-04 07:44:06.977 [info] <0.7.0> Application ibrowse started on node nonode@nohost
+2016-07-04 07:44:06.981 [info] <0.7.0> Application jsx started on node nonode@nohost
+2016-07-04 07:44:06.986 [info] <0.7.0> Application ucol started on node nonode@nohost
+2016-07-04 07:44:06.991 [info] <0.7.0> Application oauth started on node nonode@nohost
+2016-07-04 07:44:07.017 [info] <0.7.0> Application fast_yaml started on node nonode@nohost
+2016-07-04 07:44:07.040 [info] <0.7.0> Application ranch started on node nonode@nohost
+2016-07-04 07:44:07.047 [info] <0.7.0> Application cowlib started on node nonode@nohost
+2016-07-04 07:44:07.059 [info] <0.7.0> Application cowboy started on node nonode@nohost
+2016-07-04 07:44:07.077 [info] <0.7.0> Application xmerl started on node nonode@nohost
+2016-07-04 07:44:07.077 [info] <0.7.0> Application mochiweb started on node nonode@nohost
+2016-07-04 07:44:07.080 [info] <0.7.0> Application mochicow started on node nonode@nohost
+2016-07-04 07:44:07.104 [info] <0.7.0> Application hooks started on node nonode@nohost
+2016-07-04 07:44:07.143 [info] <0.7.0> Application econfig started on node nonode@nohost
+2016-07-04 07:44:07.154 [info] <0.7.0> Application idna started on node nonode@nohost
+2016-07-04 07:44:07.161 [info] <0.7.0> Application mimerl started on node nonode@nohost
+2016-07-04 07:44:07.165 [info] <0.7.0> Application certifi started on node nonode@nohost
+2016-07-04 07:44:07.170 [info] <0.7.0> Application ssl_verify_fun started on node nonode@nohost
+2016-07-04 07:44:07.176 [info] <0.7.0> Application metrics started on node nonode@nohost
+2016-07-04 07:44:07.214 [info] <0.7.0> Application hackney started on node nonode@nohost
+2016-07-04 07:44:07.272 [info] <0.2256.0> Setup running ...
+2016-07-04 07:44:07.276 [info] <0.2256.0> Directories verified. Res = ok
+2016-07-04 07:44:07.276 [info] <0.2256.0> Setup finished processing hooks (Mode=normal)...
+2016-07-04 07:44:07.277 [info] <0.7.0> Application setup started on node nonode@nohost
+2016-07-04 07:44:07.322 [info] <0.2263.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2016-07-04 07:44:07.324 [info] <0.7.0> Application exometer_core started on node nonode@nohost
+2016-07-04 07:44:07.325 [info] <0.7.0> Application snappy started on node nonode@nohost
+2016-07-04 07:44:07.567 [info] <0.7.0> Application barrel started on node nonode@nohost
+2016-07-04 07:44:07.567 [info] <0.7.0> Application barrel_ex started on node nonode@nohost
+2016-07-04 07:44:07.567 [info] <0.7.0> Application demo started on node nonode@nohost
+2016-07-04 07:44:46.866 [error] <0.2336.0> Ranch listener barrel terminated with reason: call to undefined function hooks:find("on_http_request")
+2016-07-04 07:44:46.887 [error] emulator Error in process <0.2336.0> with exit value:
+{undef,[{hooks,find,["on_http_request"],[]},{barrel_api_http,execute,2,[{file,"src/api/barrel_api_http.erl"},{line,105}]},{cowboy_protocol,execute,4,[{file,"src/cowboy_protocol.erl"},{line,442}]}]}
+2016-07-04 07:47:08.985 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-07-04 07:47:08.985 [info] <0.7.0> Application logger started on node nonode@nohost
+2016-07-04 07:47:08.986 [info] <0.7.0> Application lager_logger started on node nonode@nohost
+2016-07-04 07:47:09.059 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-07-04 07:47:09.122 [info] <0.7.0> Application os_mon started on node nonode@nohost
+2016-07-04 07:47:09.126 [info] <0.7.0> Application p1_utils started on node nonode@nohost
+2016-07-04 07:47:09.177 [info] <0.7.0> Application gproc started on node nonode@nohost
+2016-07-04 07:47:09.200 [info] <0.7.0> Application ibrowse started on node nonode@nohost
+2016-07-04 07:47:09.206 [info] <0.7.0> Application jsx started on node nonode@nohost
+2016-07-04 07:47:09.208 [info] <0.7.0> Application ucol started on node nonode@nohost
+2016-07-04 07:47:09.211 [info] <0.7.0> Application oauth started on node nonode@nohost
+2016-07-04 07:47:09.235 [info] <0.7.0> Application fast_yaml started on node nonode@nohost
+2016-07-04 07:47:09.246 [info] <0.7.0> Application ranch started on node nonode@nohost
+2016-07-04 07:47:09.261 [info] <0.7.0> Application cowlib started on node nonode@nohost
+2016-07-04 07:47:09.280 [info] <0.7.0> Application cowboy started on node nonode@nohost
+2016-07-04 07:47:09.293 [info] <0.7.0> Application xmerl started on node nonode@nohost
+2016-07-04 07:47:09.293 [info] <0.7.0> Application mochiweb started on node nonode@nohost
+2016-07-04 07:47:09.297 [info] <0.7.0> Application mochicow started on node nonode@nohost
+2016-07-04 07:47:09.324 [info] <0.7.0> Application hooks started on node nonode@nohost
+2016-07-04 07:47:09.358 [info] <0.7.0> Application econfig started on node nonode@nohost
+2016-07-04 07:47:09.367 [info] <0.7.0> Application idna started on node nonode@nohost
+2016-07-04 07:47:09.371 [info] <0.7.0> Application mimerl started on node nonode@nohost
+2016-07-04 07:47:09.377 [info] <0.7.0> Application certifi started on node nonode@nohost
+2016-07-04 07:47:09.379 [info] <0.7.0> Application ssl_verify_fun started on node nonode@nohost
+2016-07-04 07:47:09.384 [info] <0.7.0> Application metrics started on node nonode@nohost
+2016-07-04 07:47:09.416 [info] <0.7.0> Application hackney started on node nonode@nohost
+2016-07-04 07:47:09.476 [info] <0.899.0> Setup running ...
+2016-07-04 07:47:09.487 [info] <0.899.0> Directories verified. Res = ok
+2016-07-04 07:47:09.487 [info] <0.899.0> Setup finished processing hooks (Mode=normal)...
+2016-07-04 07:47:09.488 [info] <0.7.0> Application setup started on node nonode@nohost
+2016-07-04 07:47:09.551 [info] <0.906.0>@exometer_report:do_start_reporters:632 Starting reporters with []
+2016-07-04 07:47:09.552 [info] <0.7.0> Application exometer_core started on node nonode@nohost
+2016-07-04 07:47:09.558 [info] <0.7.0> Application snappy started on node nonode@nohost
+2016-07-04 07:47:09.817 [info] <0.7.0> Application barrel started on node nonode@nohost
+2016-07-04 07:47:09.817 [info] <0.7.0> Application barrel_ex started on node nonode@nohost
+2016-07-04 07:47:09.818 [info] <0.7.0> Application demo started on node nonode@nohost
+2016-07-04 07:47:31.443 [info] <0.980.0>@couch_index:init:123 Opening index for db: _users idx: _design/_auth sig: "3b0bc5aebeca4e93267c62fdefada326"
+2016-07-04 07:47:31.443 [info] <0.984.0>@couch_index_updater:handle_call:69 Starting index update for db: _users idx: _design/_auth
+2016-07-04 07:47:31.506 [error] <0.991.0> gen_server <0.991.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.17250>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.521 [error] <0.991.0> CRASH REPORT Process <0.991.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.17250>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.530 [error] <0.1003.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.531 [error] <0.1003.0> gen_server <0.1003.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.532 [error] <0.1003.0> CRASH REPORT Process <0.1003.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.569 [error] <0.1030.0> gen_server <0.1030.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.17561>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.574 [error] <0.1030.0> CRASH REPORT Process <0.1030.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.17561>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.574 [error] <0.1033.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.577 [error] <0.1033.0> gen_server <0.1033.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.579 [error] <0.1033.0> CRASH REPORT Process <0.1033.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.579 [error] <0.1036.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.580 [error] <0.1036.0> gen_server <0.1036.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.582 [error] <0.1036.0> CRASH REPORT Process <0.1036.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.586 [error] <0.1039.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.587 [error] <0.1039.0> gen_server <0.1039.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.587 [error] <0.1039.0> CRASH REPORT Process <0.1039.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.601 [error] <0.1045.0> gen_server <0.1045.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.17571>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.602 [error] <0.1045.0> CRASH REPORT Process <0.1045.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.17571>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.611 [error] <0.1051.0> gen_server <0.1051.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.17574>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.612 [error] <0.1051.0> CRASH REPORT Process <0.1051.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.17574>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.616 [error] <0.1054.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.618 [error] <0.1054.0> gen_server <0.1054.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.622 [error] <0.1054.0> CRASH REPORT Process <0.1054.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.622 [error] <0.1057.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.624 [error] <0.1057.0> gen_server <0.1057.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.627 [error] <0.1057.0> CRASH REPORT Process <0.1057.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.629 [error] <0.1060.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.630 [error] <0.1060.0> gen_server <0.1060.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.631 [error] <0.1060.0> CRASH REPORT Process <0.1060.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.642 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1066.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.697 [error] <0.1093.0> gen_server <0.1093.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.17603>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.698 [error] <0.1093.0> CRASH REPORT Process <0.1093.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.17603>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:31.702 [error] <0.1096.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.703 [error] <0.1096.0> gen_server <0.1096.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.705 [error] <0.1096.0> CRASH REPORT Process <0.1096.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.708 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1099.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.718 [error] <0.1108.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.719 [error] <0.1108.0> gen_server <0.1108.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.721 [error] <0.1108.0> CRASH REPORT Process <0.1108.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.723 [error] <0.1111.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:31.723 [error] <0.1111.0> gen_server <0.1111.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:31.725 [error] <0.1111.0> CRASH REPORT Process <0.1111.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:31.775 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1150.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.796 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1168.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.802 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1174.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.836 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1213.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.876 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1258.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.883 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1264.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.905 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1285.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.942 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1318.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:31.953 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1330.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.008 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1393.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.041 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1429.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.062 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1453.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.115 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1513.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.168 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1576.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.180 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1588.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.183 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1591.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.227 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1642.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.292 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1717.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.328 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1759.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.364 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1798.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.400 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1837.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.422 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1861.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.438 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1873.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.452 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.1888.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.470 [error] <0.1903.0> gen_server <0.1903.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18143>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.472 [error] <0.1903.0> CRASH REPORT Process <0.1903.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18143>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.476 [error] <0.1906.0> gen_server <0.1906.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18145>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.477 [error] <0.1906.0> CRASH REPORT Process <0.1906.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18145>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.507 [error] <0.1933.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:32.508 [error] <0.1933.0> gen_server <0.1933.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:32.510 [error] <0.1933.0> CRASH REPORT Process <0.1933.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:32.578 [error] <0.1993.0> gen_server <0.1993.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18203>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.579 [error] <0.1993.0> CRASH REPORT Process <0.1993.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18203>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.580 [error] <0.1996.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:32.581 [error] <0.1996.0> gen_server <0.1996.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:32.581 [error] <0.1996.0> CRASH REPORT Process <0.1996.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:32.591 [error] <0.1999.0> gen_server <0.1999.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18207>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.597 [error] <0.1999.0> CRASH REPORT Process <0.1999.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18207>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.616 [error] <0.2014.0> gen_server <0.2014.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18217>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.617 [error] <0.2014.0> CRASH REPORT Process <0.2014.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18217>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.649 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2044.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.657 [error] <0.2050.0> gen_server <0.2050.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18241>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.658 [error] <0.2050.0> CRASH REPORT Process <0.2050.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18241>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.675 [error] <0.2059.0> gen_server <0.2059.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18247>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.676 [error] <0.2059.0> CRASH REPORT Process <0.2059.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18247>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.710 [error] <0.2074.0> gen_server <0.2074.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18257>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.712 [error] <0.2074.0> CRASH REPORT Process <0.2074.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18257>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.713 [error] <0.2077.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:32.714 [error] <0.2077.0> gen_server <0.2077.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:32.715 [error] <0.2077.0> CRASH REPORT Process <0.2077.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:32.725 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2083.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.734 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2089.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.764 [error] <0.2116.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:32.765 [error] <0.2116.0> gen_server <0.2116.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:32.766 [error] <0.2116.0> CRASH REPORT Process <0.2116.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:32.774 [error] <0.2122.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:32.775 [error] <0.2122.0> gen_server <0.2122.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:32.776 [error] <0.2122.0> CRASH REPORT Process <0.2122.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:32.787 [error] <0.2131.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:32.788 [error] <0.2131.0> gen_server <0.2131.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:32.788 [error] <0.2131.0> CRASH REPORT Process <0.2131.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:32.805 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2143.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:32.811 [error] <0.2146.0> gen_server <0.2146.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18305>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.813 [error] <0.2146.0> CRASH REPORT Process <0.2146.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18305>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.840 [error] <0.2161.0> gen_server <0.2161.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18315>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.841 [error] <0.2161.0> CRASH REPORT Process <0.2161.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18315>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.868 [error] <0.2182.0> gen_server <0.2182.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18329>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.875 [error] <0.2182.0> CRASH REPORT Process <0.2182.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18329>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.901 [error] <0.2206.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:32.902 [error] <0.2206.0> gen_server <0.2206.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:32.905 [error] <0.2206.0> CRASH REPORT Process <0.2206.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:32.938 [error] <0.2221.0> gen_server <0.2221.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18355>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.940 [error] <0.2221.0> CRASH REPORT Process <0.2221.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18355>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:32.981 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2260.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.001 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2281.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.105 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2395.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.116 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2407.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.123 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2413.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.156 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2449.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.172 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2455.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.268 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2548.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.300 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2581.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.348 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2623.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.389 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2668.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.408 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2689.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.548 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2821.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.568 [error] <0.2836.0> gen_server <0.2836.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18765>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.570 [error] <0.2836.0> CRASH REPORT Process <0.2836.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18765>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.576 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2842.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.631 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2887.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.661 [error] <0.2911.0> gen_server <0.2911.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18815>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.662 [error] <0.2911.0> CRASH REPORT Process <0.2911.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18815>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.680 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2926.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.689 [error] <0.2929.0> gen_server <0.2929.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18827>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.690 [error] <0.2929.0> CRASH REPORT Process <0.2929.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18827>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.734 [error] <0.2938.0> gen_server <0.2938.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18833>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.737 [error] <0.2938.0> CRASH REPORT Process <0.2938.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18833>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.751 [error] <0.2950.0> gen_server <0.2950.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18841>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.751 [error] <0.2950.0> CRASH REPORT Process <0.2950.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18841>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.759 [error] <0.2956.0> gen_server <0.2956.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18845>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.761 [error] <0.2959.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:33.762 [error] <0.2956.0> CRASH REPORT Process <0.2956.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18845>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.762 [error] <0.2959.0> gen_server <0.2959.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:33.763 [error] <0.2959.0> CRASH REPORT Process <0.2959.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:33.814 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.2998.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.819 [error] <0.3001.0> gen_server <0.3001.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18875>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.822 [error] <0.3001.0> CRASH REPORT Process <0.3001.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18875>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.837 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3016.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.840 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3019.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.849 [error] <0.3025.0> gen_server <0.3025.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18891>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.851 [error] <0.3025.0> CRASH REPORT Process <0.3025.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18891>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.854 [error] <0.3028.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:33.855 [error] <0.3028.0> gen_server <0.3028.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:33.857 [error] <0.3028.0> CRASH REPORT Process <0.3028.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:33.883 [error] <0.3049.0> gen_server <0.3049.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18907>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.886 [error] <0.3049.0> CRASH REPORT Process <0.3049.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18907>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.892 [error] <0.3055.0> gen_server <0.3055.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18911>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.894 [error] <0.3055.0> CRASH REPORT Process <0.3055.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18911>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.902 [error] <0.3061.0> gen_server <0.3061.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18915>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.906 [error] <0.3061.0> CRASH REPORT Process <0.3061.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18915>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.908 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3064.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:33.917 [error] <0.3067.0> gen_server <0.3067.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18919>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.918 [error] <0.3067.0> CRASH REPORT Process <0.3067.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18919>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:33.919 [error] <0.3070.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:33.927 [error] <0.3070.0> gen_server <0.3070.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:33.927 [error] <0.3070.0> CRASH REPORT Process <0.3070.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:33.947 [error] <0.3082.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:33.948 [error] <0.3082.0> gen_server <0.3082.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:33.950 [error] <0.3082.0> CRASH REPORT Process <0.3082.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:33.998 [error] <0.3118.0> gen_server <0.3118.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18953>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.000 [error] <0.3118.0> CRASH REPORT Process <0.3118.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18953>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.005 [error] <0.3124.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:34.006 [error] <0.3124.0> gen_server <0.3124.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:34.007 [error] <0.3124.0> CRASH REPORT Process <0.3124.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:34.029 [error] <0.3139.0> gen_server <0.3139.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18967>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.031 [error] <0.3139.0> CRASH REPORT Process <0.3139.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18967>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.062 [error] <0.3169.0> gen_server <0.3169.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.18987>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.064 [error] <0.3172.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:34.065 [error] <0.3169.0> CRASH REPORT Process <0.3169.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.18987>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.065 [error] <0.3172.0> gen_server <0.3172.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:34.066 [error] <0.3172.0> CRASH REPORT Process <0.3172.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:34.107 [error] <0.3196.0> gen_server <0.3196.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.19005>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.109 [error] <0.3196.0> CRASH REPORT Process <0.3196.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.19005>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:34.180 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3271.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.216 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3301.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.230 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3313.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.234 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3316.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.269 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3355.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.272 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3358.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.286 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3373.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.300 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3382.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.308 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3388.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.322 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3400.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.330 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3409.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.343 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3424.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.370 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3451.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.428 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3502.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.440 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3514.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.472 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3550.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.526 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3604.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.580 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3661.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.591 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3670.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.632 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3706.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.670 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3745.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.697 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3769.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.704 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3772.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.714 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3781.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.725 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3784.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.768 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3814.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.795 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3841.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.804 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3847.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.848 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3895.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.870 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3919.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.878 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3928.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.942 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.3988.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.972 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4021.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:34.992 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4042.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.008 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4054.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.056 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4105.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.116 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4165.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.124 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4171.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.173 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4225.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.199 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4249.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.302 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4360.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.314 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4372.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.348 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4408.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.362 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4423.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.390 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4453.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.417 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4474.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.440 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4498.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.461 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4522.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.487 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4549.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.497 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4555.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.500 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4558.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.528 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4585.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.537 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4594.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.560 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4618.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.572 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4624.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.643 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4693.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.672 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4726.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.828 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4816.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.837 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4825.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.846 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4834.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.853 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4840.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.864 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4852.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:35.873 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4861.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.006 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.4984.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.120 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5110.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.148 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5143.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.245 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5251.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.370 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5392.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.376 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5398.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.384 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5404.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.388 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5407.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.432 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5449.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.485 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5509.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.502 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5521.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.550 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5572.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.572 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5584.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.588 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5602.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.632 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5629.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.652 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5647.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.668 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5665.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.679 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5677.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.688 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5686.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.828 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5800.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.852 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5821.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.870 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5833.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.904 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5851.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:36.944 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.5884.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.104 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6055.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.120 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6070.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.204 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6157.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.228 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6184.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.234 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6190.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.258 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6217.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.292 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6250.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.312 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6268.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.316 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6271.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.323 [error] <0.6274.0> gen_server <0.6274.0> terminated with reason: bad argument in call to erlang:port_command(#Port<0.21057>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:37.325 [error] <0.6274.0> CRASH REPORT Process <0.6274.0> with 0 neighbours exited with reason: bad argument in call to erlang:port_command(#Port<0.21057>, [<<"[\"reset\",{\"reduce_limit\":true,\"timeout\":5000}]">>,10]) in couch_os_process:writejson/2 line 95
+2016-07-04 07:47:37.357 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6310.0> :: {os_process_error,{exit_status,127}}
+2016-07-04 07:47:37.377 [error] <0.6325.0>@couch_os_process:handle_info:213 OS Process died with status: 127
+2016-07-04 07:47:37.380 [error] <0.6325.0> gen_server <0.6325.0> terminated with reason: {exit_status,127}
+2016-07-04 07:47:37.383 [error] <0.6325.0> CRASH REPORT Process <0.6325.0> with 0 neighbours exited with reason: {exit_status,127} in gen_server:terminate/7 line 826
+2016-07-04 07:47:37.392 [error] <0.989.0>@couch_os_process:prompt:58 OS Process Error <0.6334.0> :: {os_process_error,{exit_status,127}}
